@@ -1,6 +1,6 @@
 ---
-title: "Robert Esposito"
-image: "./assets/headshots/headshot_02.JPG"
+title: "Cristian Camilo Noriega Monsalve"
+image: "./assets/headshots/headshot.jpg"
 page-layout: full
 toc: false
 about:
@@ -10,11 +10,11 @@ about:
   image-shape: round
   links:
     - text: "{{< fa envelope size=2xl >}}"
-      href: mailto:rme70@scarletmail.rutgers.edu
+      href: mailto:noriegamonsc1@montclair.edu
     - text: "{{< fa brands github size=2xl >}}"
-      href: https://github.com/RobertEspo
+      href: https://github.com/noriegamonsc1
     - text: "{{< fa brands linkedin size=2x1 >}}"
-      href: https://www.linkedin.com/in/robert-esposito-4a51911a2/
+      href: https://www.linkedin.com/in/cristian-c-noriega-m-data-science/
 engine: knitr
 ---
 
@@ -89,12 +89,12 @@ print_list <- function(text = "text", fa = "fas fa-graduation-cap") {
 
 ```
 
-### PhD student — Bilingualism & Second Language Acquisition
+### PhD student — Environmental Science and Management
 
-#### Rutgers University
+#### Montclair State University
 
 <p align="justify">
-Hi! I'm Robert, a PhD student in the department of Spanish & Portuguese at Rutgers University in New Brunswick, NJ. I study bilingualism and second language acquisition. I'm particularly interested in the acquisition of phonology and phonetics in bilinguals, with a special focus on prosody and intonation. I'm also interested in statistical analysis and open science practices.
+Hi! I'm Cristian, a PhD student at Montclair State University in Montclair, NJ. I study Human-Robot Collaborative Disassembly (HRCD) for End-of-Life Products (EoLP), focused on e-waste. I'm particularly interested in the management of e-waste, and its disassembly to incorporate back into manufacturing, also known as circular economy. This research spans environmental sustainability and advancement of Human-Robot Collaboration (HRC).
 </p>
 
 
@@ -133,9 +133,9 @@ glue::glue("{ul}{elements}")
 #| results: 'asis'
 print_list(
   text = c(
-    "PhD in Bilingualism & Second Language Acquisition, <br>expected 2029 <br>Rutgers University", 
-    "MA in Translation & Interpretation, <br>2024 <br>Rutgers University", 
-    "BA in Linguistics, <br>2021 <br>Rutgers University"
+    "PhD in Environmental Science and Management, <br>expected 2029 <br>Montclair State University", 
+    "MS in Data Science, <br>2025 <br>Montclair State University", 
+    "BS in Topographic Engineering, <br>2021 <br>District University Francisco Jose de Caldas"
     )
   )
 ```

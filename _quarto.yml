@@ -7,7 +7,7 @@ project:
     - "assets"
 
 website:
-  title: "RME"
+  title: "CCNM"
   twitter-card: false
   site-url: "https://noriegamonsc1.github.io/"
   open-graph: true
