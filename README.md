@@ -1,2 +1,7 @@
+
+
 # noriegamonsc1.github.io
-Personal website
+
+Last update: 2025-12-18
+
+Personal website built using quarto.

@@ -113,10 +113,10 @@ Hi! I'm Cristian, a PhD student at Montclair State University in Montclair, NJ. 
 
 ul <- "- "
 elements <- c(
- "Phonetics & phonology",
- "Prosody & intonation",
- "Bilingualism & Second language acquisition",
- "Statistics & methodologies"
+ "Data Science",
+ "Sustainability",
+ "Artificial Intelligence",
+ "Clean Energy"
 )
 glue::glue("{ul}{elements}")
 ```
