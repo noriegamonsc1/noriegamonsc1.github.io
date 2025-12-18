@@ -1,0 +1,43 @@
+---
+title: "Research"
+toc: false
+engine: knitr
+execute: 
+  echo: false
+---
+
+```{css}
+cite {
+  color: #515151;
+  font-style: normal;
+}
+
+p {
+  line-height: 1.25;
+  padding-left: 30px;
+  text-indent: -30px;
+}
+
+.relax {
+  line-height: 1.5;
+  padding-left: 0px;
+  text-indent: 0px;
+}
+
+```
+
+::: panel-tabset
+
+## Overview
+
+<p class="relax">
+add text here....
+</p>
+
+## CV
+
+<p class="relax">
+You can download my CV [here]().
+</p>
+
+::: 

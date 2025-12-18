@@ -1,0 +1,38 @@
+project:
+  type: website
+  output-dir: docs
+  render: 
+    - "*.qmd"
+  resources: 
+    - "assets"
+
+website:
+  title: "RME"
+  twitter-card: false
+  site-url: "https://noriegamonsc1.github.io/"
+  open-graph: true
+  navbar:
+    background: white
+    left:
+      - text: "Research"
+        href: research.html
+      - text: "Teaching"
+        href: teaching.html
+    right:
+      - icon: github
+        href: https://github.com/noriegamonsc1
+      - icon: linkedin
+        href: https://www.linkedin.com/in/noriegamonsc1/
+  page-footer:
+    center: 
+      - text: "© Copyright 2025"
+
+format:
+  html:
+    theme:
+      light: ./assets/css/theme-light.scss
+      dark: [darkly, ./assets/css/theme-dark.scss]
+    toc: true
+
+
+
